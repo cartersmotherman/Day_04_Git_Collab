@@ -9,8 +9,7 @@ files, which you shoujld have downloaded:
 As instructed in the in-class activity notebook for today, you are 
 only expected to complete one PART below. Do not worry if your group 
 is not big enough to finish all parts below, but if you have extra 
-time, you're welcome to do so.
-""""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -26,6 +25,14 @@ import matplotlib.pyplot as plt
 # Using the Superior Dataset, plot the Water Level, the second column, 
 # as a function of time years
 
+# +
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('sup.csv')
+
+plt.plot(df['year'],df['lake levels'])
+# -
 
 
 # PART 3
@@ -55,7 +62,7 @@ import matplotlib.pyplot as plt
 
 
 # PART 7
-#Using the Superior and Ontario Datasets, plot the Superior Water 
+# Using the Superior and Ontario Datasets, plot the Superior Water 
 # Level vs Ontario Water Level to see if there is any correlation 
 # between the water levels.
 
