@@ -37,6 +37,13 @@ import matplotlib.pyplot as plt
 # PART 4
 # Using the Ontario Dataset, plot the Water Level, the second column, 
 # as a function of time years
+ont = pd.read_csv("ont.csv")
+x = ont.iloc[:,0]
+y = ont.iloc[:,1]
+plt.plot(x,y)
+plt.xlabel("Year")
+plt.ylabel("Ontario Water Level")
+plt.title("Ontario Water Level as a function of time years")
 
 
 
