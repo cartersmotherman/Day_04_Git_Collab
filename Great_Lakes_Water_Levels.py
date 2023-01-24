@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+""""
+To use this notebook for your in-class assignment, you will need these 
+files, which you shoujld have downloaded:
+* mhu.csv -- Lake Michigan and Lake Huron
+* sup.csv -- Lake Superior
+* eri.csv -- Lake Erie
+* ont.csv -- Lake Ontario
+
+As instructed in the in-class activity notebook for today, you are 
+only expected to complete one PART below. Do not worry if your group 
+is not big enough to finish all parts below, but if you have extra 
+
+>>>>>>> hanhoupu
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,6 +28,14 @@ import matplotlib.pyplot as plt
 # Using the Superior Dataset, plot the Water Level, the second column, 
 # as a function of time years
 
+# +
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('sup.csv')
+
+plt.plot(df['year'],df['lake levels'])
+# -
 
 
 # PART 3
