@@ -45,6 +45,11 @@ import matplotlib.pyplot as plt
 # Michigan/Hurion Water Level vs Superior Water Level to see if there 
 # is any correlation between the water levels.
 
+ont = pd.read_csv('ont.csv')
+plt.plot(ont['time'],ont['water level'])
+plt.xlabel('Time(years)')
+plt.ylabel('Wtr Lvl')
+plt.title('ontdta')
 
 
 # PART 6
